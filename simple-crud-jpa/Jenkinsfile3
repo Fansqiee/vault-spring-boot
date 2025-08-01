@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Fansqiee/vault-spring-boot.git'
+                git branch: 'main', url: 'https://github.com/Fansqiee/vault-spring-boot'
             }
         }
 
